@@ -7,11 +7,13 @@ import App from './App';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import BlogPage from './pages/BlogPage';  
+import PageNotFound from './pages/PageNotFound';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <PageNotFound />,
     children: [
       {
         path: "",

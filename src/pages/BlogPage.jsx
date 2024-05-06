@@ -10,9 +10,8 @@ const BlogPage = () => {
   console.log(b); 
   return (
     <div>
-      <h1>Blogs</h1>
-      <h2> {b.title} </h2>
-      <p> {b.description} </p>
+      <h1> {b.title} </h1>
+      <h3> {b.description} </h3>
     </div>
   )
 }
